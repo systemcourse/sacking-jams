@@ -1,6 +1,4 @@
-type: Page
-id: threat_models
-title: Understanding Threat Models
+
 content: |
 
     # Threat Models in Online Anonymity
