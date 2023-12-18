@@ -1,52 +1,24 @@
-title: "Module 1: Definition of Online Anonymity"
-description: |
-    # Module 1: Definition of Online Anonymity
+type: Page
+content: |
 
-    Welcome to the first module of "An Introduction to Online Anonymity"! In this module, we will dive into the definition of online anonymity, understand how it contrasts with offline anonymity, differentiate it from privacy, and explore its historical evolution.
+  # Module 1: Definition of Online Anonymity
+  
+  Welcome to the first module of "An Introduction to Online Anonymity"! In this module, we will dive into the definition of online anonymity, understand how it contrasts with offline anonymity, differentiate it from privacy, and explore its historical evolution.
 
-    ## Understanding Online Anonymity
+  ## Understanding Online Anonymity
 
-    In the digital age, understanding the concept of online anonymity is essential for navigating the internet safely and freely. This section delves into the nuances of online anonymity, exploring its definition, purpose, and how it contrasts with its offline counterpart.
+  In the digital age, understanding the concept of online anonymity is essential for navigating the internet safely and freely. This section delves into the nuances of online anonymity, exploring its definition, purpose, and how it contrasts with its offline counterpart.
 
-    ### What is Online Anonymity?
+  ### What is Online Anonymity?
 
-    Online anonymity is not just about being unidentifiable; it's about having control over your digital persona. At its core, online anonymity is the ability to engage in digital activities without revealing identifiable information about oneself. This includes not just your name, but also other potentially identifying details like your location, age, gender, or any data that can be used to trace back to your real identity.
+  Online anonymity is not just about being unidentifiable; it's about having control over your digital persona. At its core, online anonymity is the ability to engage in digital activities without revealing identifiable information about oneself. This includes not just your name, but also other potentially identifying details like your location, age, gender, or any data that can be used to trace back to your real identity.
 
-    ### How Does It Differ from Offline Anonymity?
+  ### How Does It Differ from Offline Anonymity?
 
-    Understanding the distinction between online and offline anonymity is crucial in comprehending the unique challenges and opportunities presented by the digital world.
+  Understanding the distinction between online and offline anonymity is crucial in comprehending the unique challenges and opportunities presented by the digital world.
+  
+  ## Historical Context
+  
+  The concept of online anonymity has evolved significantly as the internet has grown from a niche network to a ubiquitous part of modern life.
 
-    ## Historical Context
-
-    The concept of online anonymity has evolved significantly as the internet has grown from a niche network to a ubiquitous part of modern life. 
-
-rules:
-    start:
-    -
-        if_before: end_week 1
-        if_has_role: [student, ta, instructor]
-        if_has_fewer_sessions_than: 2
-        may_start_new_session: True
-        may_list_existing_sessions: True
-    -
-        may_start_new_session: False
-        may_list_existing_sessions: True
-    access:
-     -
-        if_before: end_week 2
-        permissions: [view, modify, see_correctness]
-        message: "Welcome! This message is brought to you by the access rules."
-     -
-        permissions: [view, modify, see_correctness, see_answer_after_submission]
-
-    grade_identifier: quiz_module_1
-    grade_aggregation_strategy: max_grade
-    grading:
-    -
-        if_completed_before: end_week 1
-        credit_percent: 100
-    -
-        if_completed_before: end_week 2
-        credit_percent: 50
-    -
-        credit_percent: 0
+id: module_1_definition_of_anonymity
