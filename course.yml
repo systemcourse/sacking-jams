@@ -8,7 +8,7 @@ chunks:
 
         Embark on a journey to understand the critical concept of online anonymity. In this introductory section, we'll define what online anonymity is and explore its significance in the digital era. Learn about the history and evolution of anonymity in the context of internet usage and its growing importance in protecting personal freedoms and rights in our interconnected world.
 
-        **Explore More:** Dive into the historical and contemporary context of online anonymity. [Learn More](staticpages:1_defention_of_anonymity)
+        **Explore More:** Dive into the historical and contemporary context of online anonymity. [Learn More](staticpage:1_defention_of_anonymity)
 
         **Next Step:** Grasp the basic concepts of online anonymity.
 
@@ -20,7 +20,7 @@ chunks:
 
         Delve into the essential principles and technologies that underpin online anonymity. This section is designed to provide a solid foundation in understanding how anonymity works on the internet, the tools that enable it, and the various practices that support anonymous online activities. We'll also address the challenges and limitations you might encounter in your journey to maintain anonymity.
 
-        **Deepen Your Understanding:** Uncover the intricacies of online anonymity. [Learn More](staticpages:2_importance_of_anonymity)
+        **Deepen Your Understanding:** Uncover the intricacies of online anonymity. [Learn More](staticpage:2_importance_of_anonymity)
 
         **Activity:** Test your knowledge with a quiz on these fundamental concepts.
 
@@ -32,7 +32,7 @@ chunks:
 
         This section delves into the distinct yet interconnected concepts of anonymity and privacy. Gain a nuanced understanding of how these two principles differ and their unique roles in the digital landscape. Through real-world examples, learn about the importance and impact of both in various online settings. This exploration will illuminate the significance and implications of each concept in your digital life.
 
-        **Engage in Discussion:** Reflect and share in the forum how anonymity and privacy influence your online interactions. [Explore More](staticpages:3_basic_concepts)
+        **Engage in Discussion:** Reflect and share in the forum how anonymity and privacy influence your online interactions. [Explore More](staticpage:3_basic_concepts)
 
 - 
     title: "Real-Life Applications"
@@ -42,7 +42,7 @@ chunks:
 
         This section uncovers the critical role of online anonymity in various real-world scenarios. Discover how anonymity serves as a key element in fields like journalism, activism, and social media. We'll discuss its significance in protecting sources, enabling free speech, and maintaining personal safety. Additionally, explore the ethical and legal considerations that come with the use of anonymity in these contexts.
 
-        **Case Study:** Delve into a detailed analysis of a real-life instance where anonymity was pivotal. [Explore the Case Study](staticpages:real_life_applications)
+        **Case Study:** Delve into a detailed analysis of a real-life instance where anonymity was pivotal. [Explore the Case Study](staticpage:real_life_applications)
 
 - 
     title: "Maintaining Anonymity"
@@ -52,7 +52,7 @@ chunks:
 
         This comprehensive section is dedicated to the practicalities of maintaining online anonymity. It's a deep dive into the myriad of tools, strategies, and best practices that are crucial in safeguarding your digital identity. Learn about VPNs, proxy servers, secure browsers, and more. Understand the common pitfalls like digital footprint leaks and how to navigate around them. Equip yourself with the knowledge to stay a step ahead in the digital world.
 
-        **Interactive Exercise:** Participate in an activity to develop a robust plan for maintaining anonymity in diverse online scenarios. [Deepen Your Skills](staticpages:maintaining_anonymity)
+        **Interactive Exercise:** Participate in an activity to develop a robust plan for maintaining anonymity in diverse online scenarios. [Deepen Your Skills](staticpage:maintaining_anonymity)
 
 - 
     title: "Understanding Threat Models"
@@ -62,7 +62,7 @@ chunks:
 
         This section is pivotal in comprehending the landscape of threats that can undermine online anonymity. We will guide you through identifying potential threats and understanding the complexities of personal risk. Learn the art of crafting a threat model that reflects your specific circumstances and online behavior. This knowledge is crucial for anyone seeking to navigate the digital world securely.
 
-        **Workshop:** Immerse yourself in an interactive workshop where you will create and refine your own threat model, a key skill in digital self-defense. [Learn More and Participate](staticpages:threat_models)
+        **Workshop:** Immerse yourself in an interactive workshop where you will create and refine your own threat model, a key skill in digital self-defense. [Learn More and Participate](staticpage:threat_models)
 
 - 
     title: "Tactics and Techniques for De-Anonymization"
@@ -72,7 +72,7 @@ chunks:
 
         This section delves into the advanced tactics and methodologies used by various entities to breach online anonymity. Gain insight into the sophisticated techniques of de-anonymization, understand their implications, and learn about historical and contemporary cases where these methods have been successfully employed. This knowledge is essential for anyone looking to fortify their defense against such tactics.
 
-        **Simulation:** Participate in a realistic simulation that demonstrates the process of de-anonymization and equips you with defensive strategies. [Experience the Simulation](staticpages:ttp_deanonymization)
+        **Simulation:** Participate in a realistic simulation that demonstrates the process of de-anonymization and equips you with defensive strategies. [Experience the Simulation](staticpage:ttp_deanonymization)
         
 - 
     title: "Final Exam"
