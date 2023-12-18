@@ -1,0 +1,88 @@
+chunks:
+
+- 
+  title: "Introduction to Online Anonymity"
+  id: intro_to_anonymity
+  content: |
+    # Welcome to 'An Introduction to Online Anonymity'
+
+    This course will guide you through the essentials of staying anonymous online. Let's start with understanding what online anonymity really is and why it matters in the digital age.
+
+    **Next Step:** Explore the historical and contemporary context of online anonymity.
+
+- 
+  title: "Basic Concepts of Online Anonymity"
+  id: basic_concepts
+  content: |
+    # Basic Concepts of Online Anonymity
+
+    Learn about the fundamental principles and technologies that support online anonymity. Understand the challenges and limitations of maintaining anonymity.
+
+    **Activity:** Participate in a quiz to test your understanding of these principles.
+
+- 
+  title: "Anonymity vs. Privacy"
+  id: anonymity_vs_privacy
+  content: |
+    # Anonymity vs. Privacy
+
+    Discover how anonymity differs from privacy. Examine real-world examples that illustrate these differences.
+
+    **Discussion:** Share your thoughts in the forum about how these concepts play a role in your online life.
+
+- 
+  title: "Real-Life Applications"
+  id: real_life_applications
+  content: |
+    # Real-Life Applications of Online Anonymity
+
+    Explore scenarios where online anonymity is crucial, such as in journalism and activism. Discuss the ethical and legal considerations.
+
+    **Case Study:** Analyze a real-life case where anonymity played a key role.
+
+- 
+  title: "Maintaining Anonymity"
+  id: maintaining_anonymity
+  content: |
+    # Maintaining Anonymity Online
+
+    Learn about the tools and strategies to stay anonymous. Understand common pitfalls and how to avoid them.
+
+    **Interactive Exercise:** Create your own plan for maintaining anonymity in various online situations.
+
+- 
+  title: "Understanding Threat Models"
+  id: threat_models
+  content: |
+    # Threat Models in Online Anonymity
+
+    Identify potential threats to your anonymity. Learn to assess personal risk and create a threat model.
+
+    **Workshop:** Engage in a workshop to build your own threat model.
+
+- 
+  title: "Tactics and Techniques for De-Anonymization"
+  id: ttp_deanonymization
+  content: |
+    # Tactics, Techniques, and Procedures for De-Anonymization
+
+    Understand the methods used to compromise anonymity. Study cases of successful de-anonymization and how to counter these tactics.
+
+    **Simulation:** Engage in a simulation to experience the process of de-anonymization and learn defensive strategies.
+
+- 
+  title: "Final Exam"
+  id: final_exam
+  rules:
+  -
+    if_after: end_of_course
+    weight: 100
+  -
+    weight: 0
+  content: |
+    # Final Exam
+
+    Test your knowledge and understanding of online anonymity. This exam covers all topics discussed in the course.
+
+    **Start Exam:** [Final Exam](flow:final_exam)
+

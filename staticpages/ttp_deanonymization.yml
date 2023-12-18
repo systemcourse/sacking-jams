@@ -1,0 +1,12 @@
+type: Page
+id: ttp_deanonymization
+title: Tactics, Techniques, and Procedures for De-Anonymization
+content: |
+
+    # Tactics, Techniques, and Procedures for De-Anonymization
+
+    In this critical section, you will gain an understanding of the various methods used by entities to compromise online anonymity. We will study different cases of successful de-anonymization, analyzing the tactics used and how they were executed.
+
+    This knowledge is key to understanding the landscape of online security and how to protect your digital identity effectively.
+
+    **Simulation:** Engage in a hands-on simulation exercise to experience the process of de-anonymization and learn the defensive strategies to safeguard your anonymity.
