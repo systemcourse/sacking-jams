@@ -5,13 +5,11 @@ content:
 
     Welcome to Module 3 of "An Introduction to Online Anonymity." In this module, we explore the core principles of online anonymity, the technologies and practices that support it, and the inherent limits and challenges in maintaining it.
 
-  section: 
       - "Fundamentals of Online Anonymity"
 
           
               Grasping the basic principles of online anonymity is essential for anyone looking to navigate the digital world with an awareness of privacy and security.
 
-          subsection:
               - "Core Principles to Understand"
                   bullet_point:
                       - "Definition and Scope"
