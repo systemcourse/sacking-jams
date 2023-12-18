@@ -1,0 +1,101 @@
+---
+title: "Module 1: Definition of Online Anonymity"
+description: |
+    # Module 1: Definition of Online Anonymity
+
+    Welcome to the first module of "An Introduction to Online Anonymity"! In this module, we will dive into the definition of online anonymity, understand how it contrasts with offline anonymity, differentiate it from privacy, and explore its historical evolution.
+
+    ## Understanding Online Anonymity
+
+    In the digital age, understanding the concept of online anonymity is essential for navigating the internet safely and freely. This section delves into the nuances of online anonymity, exploring its definition, purpose, and how it contrasts with its offline counterpart.
+
+    ### What is Online Anonymity?
+
+    Online anonymity is not just about being unidentifiable; it's about having control over your digital persona.
+
+    **Concept**: At its core, online anonymity is the ability to engage in digital activities without revealing identifiable information about oneself. This includes not just your name, but also other potentially identifying details like your location, age, gender, or any data that can be used to trace back to your real identity.
+
+    **Multifaceted Nature**: Anonymity online can range from simply using a pseudonym on a forum to employing complex encryption methods to hide one's digital footprint entirely.
+
+    **Purpose**: The primary aim of online anonymity is to empower users with the freedom to explore, interact, and express themselves without the constraints or fear of real-world repercussions. This includes:
+    - **Freedom of Expression**: Speaking out on sensitive or controversial topics without fear of social ostracization or legal consequences.
+    - **Information Seeking**: Researching topics that might be stigmatized or risky to explore openly.
+    - **Personal Safety**: Protecting oneself from potential harassment or threats, especially for individuals in vulnerable positions.
+
+    ### How Does It Differ from Offline Anonymity?
+
+    Understanding the distinction between online and offline anonymity is crucial in comprehending the unique challenges and opportunities presented by the digital world.
+
+    **Visibility & Traceability**: Online actions, by their nature, leave digital traces (like IP addresses, cookies, etc.), making them inherently more traceable than offline activities. In the physical world, one's actions don't inherently leave a permanent, easily accessible record.
+
+    **Control Over Identity**: The digital realm offers more sophisticated tools and methods to conceal one's identity. From VPNs and proxy servers to anonymous browsing modes and encryption, these tools provide a level of control over personal identity that is generally not available offline.
+
+    **Context of Anonymity**: The reasons for seeking anonymity can differ significantly between online and offline environments. Online, anonymity is often a deliberate choice made for specific reasons like privacy protection, avoiding state surveillance, or safe participation in certain communities. Offline, anonymity might be more incidental or less controlled by the individual.
+
+    ## Historical Context
+
+    The concept of online anonymity has evolved significantly as the internet has grown from a niche network to a ubiquitous part of modern life. This evolution reflects the changing nature of the internet and the different needs and challenges of its users over time.
+
+    ### Early Internet
+
+    **Origins**: In its infancy, the internet was primarily a tool for academic and military communication, known then as ARPANET. It was a small network connecting a limited number of computers, primarily used for research and defense purposes.
+
+    **Anonymity Not a Priority**: During this period, users generally knew each other, and the concept of 'anonymity' as we understand it today wasn't a significant concern. The focus was on building a functional network, not on the privacy or anonymity of its users.
+
+    ### Growth of the Web
+
+    **Expansion**: With the advent of the World Wide Web in the early 1990s, the internet began to expand beyond academic and military circles into the broader public domain.
+
+    **Rise of Anonymity Needs**: This expansion brought with it a growing need for anonymity. The internet became a platform for more personal and diverse uses – from online forums and chatrooms to e-commerce and social media.
+
+    **Privacy and Safety**: As more people started using the internet for a wide range of activities, concerns about privacy and personal safety began to rise. Users sought ways to protect their identities in various online interactions, leading to the development and popularization of tools like proxy servers and anonymizing services.
+
+    ### Modern Era
+
+    **Data Collection and Surveillance**: In recent years, the internet has seen an unprecedented increase in data collection, surveillance, and tracking technologies. Companies and governments alike collect vast amounts of data, often for advertising, monitoring, or surveillance purposes.
+
+    **Anonymity Under Threat**: This trend has placed online anonymity under significant threat. Advanced tracking techniques can de-anonymize users, and government surveillance programs have the capability to track online activities.
+
+    **Response to Threats**: In response, there has been a surge in the development and use of more sophisticated anonymity tools, such as VPNs, the Tor network, and end-to-end encrypted communication platforms. These tools are designed to protect users' identities and activities from being easily traced or monitored.
+
+    The history of online anonymity is a reflection of the internet's own transformation. From a small network with little need for anonymity to a global system where privacy and freedom of expression are paramount, the evolution of anonymity is a testament to the changing ways in which we interact with and perceive the digital world.
+
+    In conclusion, understanding online anonymity is crucial in navigating the digital world safely and freely. As we progress through this course, we'll explore more about how to maintain this anonymity and why it's essential for our digital lives.
+
+    Stay tuned for the next module, where we delve into the importance of anonymity in the digital age!
+rules:
+    start:
+    -
+        if_before: end_week 1
+        if_has_role: [student, ta, instructor]
+        if_has_fewer_sessions_than: 2
+        may_start_new_session: True
+        may_list_existing_sessions: True
+
+    -
+        may_start_new_session: False
+        may_list_existing_sessions: True
+
+    access:
+     -
+         if_before: end_week 2
+         permissions: [view, modify, see_correctness]
+         message: "Welcome! This message is brought to you by the access rules."
+
+     -
+         permissions: [view, modify, see_correctness, see_answer_after_submission]
+
+    grade_identifier: quiz_module_1
+    grade_aggregation_strategy: max_grade
+
+    grading:
+    -
+        if_completed_before: end_week 1
+        credit_percent: 100
+
+    -
+        if_completed_before: end_week 2
+        credit_percent: 50
+
+    -
+        credit_percent: 0
